@@ -2,7 +2,7 @@ import React, {useState} from "react";
 
 export default function Lily2(){
     const [color, setColor]  = useState("");
-    return(
+    return(                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
     <div className={`flex space-x-4 w-full h-screen bg-${color}-800`}>
         <p>ungu solih:</p>
         <button
