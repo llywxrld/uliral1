@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-export default function task4() {
+export default function Task4() {
   const [grid, setGrid] = useState("");
   const data = [
     {id:1,  firstname: "Ariunbayar",Lastname:"Odbayar"},

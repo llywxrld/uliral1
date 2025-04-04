@@ -1,13 +1,13 @@
 import React, { useState } from "react";
 
-export default function task4() {
+export default function Task4() {
   const [search, setSearch] = useState("");
   console.log("search utga -->", search);
   return (
     <div className="w-full h-screen bg-gray-200 pt-20">
         <div className="w-full h-20 bg-blue-600 flex items-center justify-center text-white text-2xl font-bold">Nest high school</div>
         <div className="mt-8 text-4xl font-bold flex items-center justify-center">Welcome to Nest school</div>
-        <div className="mt-8 text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been<br></br> the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley</div>
+        <div className="mt-8 text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been<br></br> the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley</div>
         <div className="flex items-center justify-center pt-4">
         <button className="w-20 h-8 bg-blue-600 rounded-md text-white font-bold text-xs">Click Me</button>
         </div>
@@ -27,7 +27,7 @@ export default function task4() {
             <div className="">Global Reach</div> 
         </div>
         <div className="drop-shadow-md w-64 h-48 bg-white rounded-md pt-2 flex justify-center font-bold">Customer Reviews
-            <div>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley</div>
+            <div>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley</div>
         </div>
         </div>
         

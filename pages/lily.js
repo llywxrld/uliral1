@@ -1,6 +1,6 @@
 import Image from "next/image";
  
-export default function lily() {
+export default function Lily() {
     return (
         <div className="w-screen h-screen flex font-main p-6">
             <div className="h-full w-16 bg-indigo-950 rounded-2xl">
@@ -51,7 +51,7 @@ export default function lily() {
                     </div>
                     <div className="bg-indigo-950 rounded-2xl justify-between">
                         <div className="w-full h-10 pl-8 flex items-end ">
-                            <p className="text-sm font-semibold text-zinc-400">TODAY'S FORECAST</p>
+                            <p className="text-sm font-semibold text-zinc-400">TODAYS FORECAST</p>
                         </div>
                         <div className="w-full h-36 grid grid-cols-6 px-10 py-4 divide-x-[2px] divide-zinc-600/50">
                             <div className="w-full h-full flex flex-col items-center justify-between">
@@ -88,7 +88,7 @@ export default function lily() {
                     </div>
                     <div className="bg-indigo-950 rounded-xl">
                         <div className="w-full h-10 flex items-end justify-between px-8">
-                            <p className="text-sm font-semibold text-zinc-400">TODAY'S FORECAST</p>
+                            <p className="text-sm font-semibold text-zinc-400">TODAYSFORECAST</p>
                             <button className="bg-blue-600 px-3 py-1 rounded-full text-sm">See more</button>
                         </div>
                         <div className="w-full h-36 grid grid-cols-2 grid-rows-2 px-8 py-2">

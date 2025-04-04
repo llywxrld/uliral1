@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-export default function task4() {
+export default function Task4() {
   const [search, setSearch] = useState("");
   console.log("search utga -->", search);
   return (
