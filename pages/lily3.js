@@ -11,7 +11,7 @@ export default function Lily3(){
         <input
         type="search"
         onChange={(test) => setSearch(test.target.value)}
-        className="border-2 border-black rounded"
+        className=""
         />
         <p>search: {search}</p>
     </div>
